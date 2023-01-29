@@ -18,5 +18,8 @@ function switchTheme() {
   const footer = document.getElementById("page-footer");
   footer.classList.add("text-white", "footer-settings");
 
+  const header = document.getElementById("page-header");
+  header.innerHTML = "This is the Dark theme";
+  header.classList.add("text-white");
 
 }
