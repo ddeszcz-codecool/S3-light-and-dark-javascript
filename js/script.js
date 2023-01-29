@@ -22,4 +22,7 @@ function switchTheme() {
   header.innerHTML = "This is the Dark theme";
   header.classList.add("text-white");
 
+  const button = document.getElementById("themeSwitch");
+  button.innerHTML = "Activate Light Theme";
+
 }
