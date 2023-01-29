@@ -15,7 +15,7 @@ function switchTheme() {
   tables.forEach((table)=>{
     table.setAttribute("class", "table-stripped table table-dark")});
 
-  const footer = document.querySelector(".navbar-text");
+  const footer = document.getElementById("page-footer");
   footer.classList.add("text-white", "footer-settings");
 
 
